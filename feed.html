@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Общая лента</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="feed.html" class="logo">Блог</a>
+    <a href="feed.html" class="toplink">Общая лента</a>
+</header>
+  
+  <div class="page">
+    <aside class="sidebar">
+      <h2>Блог</h2>
+      <p>Общая лента персонажей</p>
+
+      <div class="menu">
+        <a href="feed.html">Главная лента</a>
+      </div>
+    </aside>
+
+    <main class="content">
+      <h1>Общая лента</h1>
+      <div id="feed"></div>
+    </main>
+
+    <aside class="rightbar">
+      <h3>Интересные страницы</h3>
+      <div id="suggestions"></div>
+    </aside>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
